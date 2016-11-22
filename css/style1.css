@@ -1,0 +1,151 @@
+
+
+/* Start:/local/templates/MAIN_NEW/components/bitrix/catalog.section/list-li-goods-unscrol/style.css?14550071772909*/
+.list-li-goods .grey {
+    /*width: 210px;
+    background-color: #dfdfdf;*/
+    color: #838383;
+    font-size: 16px;
+    padding: 7px 0px 4px 0px;
+    /*border-radius: 5px;*/
+    border-bottom: 1px solid #838383;
+    margin: 30px 0px 0px;
+}
+
+.list-li-goods .grey.recommended {
+	position: relative;
+}
+
+.list-li-goods .grey.recommended:after {
+	content: "мы рекомендуем";
+	display: block;
+	position: absolute;
+	background: url("/images/temp-new/recommend.png") 10px 0px no-repeat #fff;
+	height: 26px;
+	width: 180px;
+	top: 13px;
+	right: -3px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 8px 0px 0px 20px;
+	text-shadow: 0px 1px 1px #000;
+}
+
+#content .block {
+    margin-top: 20px;
+}
+
+.list-li-goods .items-list li {
+    width: 207px;
+    height: 265px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    margin: 10px 12px 0px 0px;
+    position: relative;
+}
+
+.list-li-goods .items-list li.nomargin {
+    margin: 10px 0px 0px 0px;
+}
+
+.list-li-goods .jcarousel-list li.nomargin {
+    margin: 10px 12px 0px 0px;
+}
+
+.list-li-goods .items-list li:hover {
+    width: 203px;
+    height: 261px;
+    border: 3px solid #d43b73;
+}
+
+.list-li-goods .items-list .name {
+    width: 170px;
+    margin: 0px auto;
+    padding-top: 22px;
+}
+
+.list-li-goods .items-list li:hover .name {
+    padding-top: 20px;
+}
+
+.list-li-goods .items-list .name a {
+    color: #e80055;
+    font-weight: bold;
+}
+
+.list-li-goods .items-list .image {
+    position: relative;
+    margin: 25px auto 0px;
+    height: 100px;
+    width: 170px;
+}
+
+#content .items-list .image div {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    right: 15px;
+    top: -15px;
+}
+
+#content .items-list .image .hit {
+    background: url("/images/temp-new/hit.png") 0px 0px no-repeat;
+}
+
+#content .items-list .image .new {
+    background: url("/images/temp-new/new.png") 0px 0px no-repeat;
+}
+
+#content .items-list .price {
+    color: #6d6d6d;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+}
+
+#content .items-list li:hover .price {
+    bottom: 13px;
+}
+
+#content .items-list .price span {
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#content .block .jcarousel-clip {
+    overflow: hidden;
+}
+
+#content .block .jcarousel-prev {
+    background: url("/images/temp-new/prev.png") 0px 0px no-repeat;
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    left: -14px;
+    top: 105px;
+    cursor: pointer;
+}
+
+#content .block .jcarousel-prev:hover {
+    background: url("/images/temp-new/prev.png") 0px -29px no-repeat;
+}
+
+#content .block .jcarousel-next {
+    background: url("/images/temp-new/next.png") 0px 0px no-repeat;
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    right: -13px;
+    top: 105px;
+    cursor: pointer;
+}
+
+#content .block .jcarousel-next:hover {
+    background: url("/images/temp-new/next.png") 0px -29px no-repeat;
+}
+/* End */
+/* /local/templates/MAIN_NEW/components/bitrix/catalog.section/list-li-goods-unscrol/style.css?14550071772909 */
